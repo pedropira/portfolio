@@ -2,7 +2,7 @@
 
 ![Portfolio Preview](./public/preview-image.png)
 
-> "No programes para solucionar problemas, programa para crear soluciones."
+> "No solo solucionar problemas, crear soluciones."
 
 Bienvenido al repositorio de mi portafolio personal interactivo, desarrollado bajo la filosofía **AI First** y **Spec-Driven Development (SDD)**. Este proyecto no es solo una tarjeta de presentación, sino una demostración viva de mi enfoque en la arquitectura técnica, el diseño moderno y la integración de IA en el desarrollo web.
 
@@ -32,33 +32,6 @@ El proyecto está diseñado con un enfoque modular y escalable:
    - **Floating Actions:** Botones de WhatsApp y Descarga de CV que siguen al usuario pero se ocultan de forma inteligente al llegar a la sección de contacto mediante `IntersectionObserver`.
    - **Contacto de Alta Conversión:** Efectos personalizados (como el estilo Gmail al hacer hover) y llamadas a la acción directas.
 4. **Linaje Técnico (Mentores):** Una sección única que da crédito a las influencias que han moldeado mi filosofía de trabajo y arquitectura.
-
-## ⚙️ Cómo iniciar el entorno de desarrollo
-
-1. Clona el repositorio:
-   ```bash
-   git clone https://github.com/pedropira/portfolio.git
-   cd portfolio
-   ```
-
-2. Instala las dependencias:
-   ```bash
-   npm install
-   ```
-
-3. Inicia el servidor de desarrollo:
-   ```bash
-   npm run dev
-   ```
-
-4. Abre [http://localhost:3000](http://localhost:3000) en tu navegador para ver el resultado.
-
-## 📄 Notas para la gestión del CV
-
-Para que la descarga del CV funcione correctamente:
-1. Asegúrate de colocar tu archivo PDF real en la carpeta `public/`.
-2. El archivo debe llamarse exactamente `cv.pdf`. 
-3. El botón de descarga automáticamente lo renombrará a `CV-PedroPirachican-Developer.pdf` para el usuario.
 
 ## 🤝 Contacto
 
