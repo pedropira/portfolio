@@ -265,7 +265,7 @@ export const About = () => {
                     className="flex flex-col h-full justify-center"
                   >
                     <h3 className="text-2xl font-bold mb-8 text-[var(--color-accent)]">
-                      Educación y Habilidades
+                      Educación e Idiomas
                     </h3>
 
                     <div className="space-y-8">
@@ -293,15 +293,17 @@ export const About = () => {
                                 <path d="M6 12v5c3 3 9 3 12 0v-5" />
                               </svg>
                             </div>
-                            <div>
-                              <h5 className="text-white font-bold text-lg">
-                                Tecnólogo en Análisis y Desarrollo de Software
-                              </h5>
-                              <p className="text-[var(--color-gray-light)]">
+                            <div className="flex-grow">
+                              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-1">
+                                <h5 className="text-white font-bold text-lg leading-tight">
+                                  Tecnólogo en Análisis y Desarrollo de Software
+                                </h5>
+                                <span className="inline-flex items-center px-3 py-1 rounded-full text-[10px] font-bold bg-[var(--color-accent)]/10 text-[var(--color-accent)] border border-[var(--color-accent)]/20 whitespace-nowrap shadow-[0_0_15px_rgba(var(--color-accent-rgb),0.1)]">
+                                  2024 - 2026
+                                </span>
+                              </div>
+                              <p className="text-[var(--color-gray-light)] text-sm">
                                 SENA (Servicio Nacional de Aprendizaje)
-                              </p>
-                              <p className="text-[var(--color-gray-light)]">
-                                2024 - 2026
                               </p>
                             </div>
                           </div>
@@ -327,15 +329,17 @@ export const About = () => {
                                 <circle cx="12" cy="9" r="2" />
                               </svg>
                             </div>
-                            <div>
-                              <h5 className="text-white font-bold text-lg">
-                                Bachiller Técnico (Tecnico en electricidad)
-                              </h5>
-                              <p className="text-[var(--color-gray-light)]">
+                            <div className="flex-grow">
+                              <div className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 mb-1">
+                                <h5 className="text-white font-bold text-lg leading-tight">
+                                  Bachiller Técnico (Técnico en electricidad)
+                                </h5>
+                                <span className="inline-flex items-center px-3 py-1 rounded-full text-[10px] font-bold bg-[var(--color-accent)]/10 text-[var(--color-accent)] border border-[var(--color-accent)]/20 whitespace-nowrap shadow-[0_0_15px_rgba(var(--color-accent-rgb),0.1)]">
+                                  2022 - 2023
+                                </span>
+                              </div>
+                              <p className="text-[var(--color-gray-light)] text-sm">
                                 SENA (Servicio Nacional de Aprendizaje)
-                              </p>
-                              <p className="text-[var(--color-gray-light)]">
-                                2022 - 2023
                               </p>
                             </div>
                           </div>

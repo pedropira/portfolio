@@ -11,24 +11,40 @@ export const contentType = 'image/png'
 export default function Icon() {
   return new ImageResponse(
     (
-      // ImageResponse JSX element
       <div
         style={{
-          fontSize: 22,
-          background: 'linear-gradient(to bottom right, #0a0a0a, #1a1a1a)',
+          background: 'transparent',
           width: '100%',
           height: '100%',
           display: 'flex',
           alignItems: 'center',
           justifyContent: 'center',
-          color: 'white',
-          fontWeight: 900,
-          borderRadius: '25%',
-          border: '1px solid #333',
         }}
       >
-        <span style={{ color: '#00d2ff' }}>P</span>
-        <span style={{ color: 'white' }}>P</span>
+        <svg 
+          width="32" 
+          height="32" 
+          viewBox="0 0 100 100" 
+          fill="none" 
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <rect 
+            x="15" 
+            y="15" 
+            width="70" 
+            height="70" 
+            rx="12" 
+            stroke="#00d2ff" 
+            strokeWidth="10"
+          />
+          <path 
+            d="M35 65L50 35L65 65" 
+            stroke="#00d2ff" 
+            strokeWidth="8" 
+            strokeLinecap="round" 
+            strokeLinejoin="round"
+          />
+        </svg>
       </div>
     ),
     {
