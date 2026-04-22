@@ -1,0 +1,47 @@
+@import "tailwindcss";
+
+@theme inline {
+  --color-bg: #0F172A;
+  --color-dark: #020617;
+  --color-dark-alt: #1E293B;
+  --color-accent: #2DD4BF;
+  --color-white: #FFFFFF;
+  --color-gray-light: #F8FAFC;
+  --font-heading: var(--font-inter), sans-serif;
+  --font-body: var(--font-dm-sans), sans-serif;
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 16px;
+}
+
+:root {
+  --color-accent-rgb: 45, 212, 191;
+  
+  /* Glassmorphism Design Tokens */
+  --glass-bg: rgba(255, 255, 255, 0.03);
+  --glass-border: rgba(255, 255, 255, 0.1);
+  --glass-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
+  --glass-blur: 12px;
+  
+  /* Mesh Gradient Colors */
+  --mesh-1: #0F172A;
+  --mesh-2: #1E1B4B;
+  --mesh-3: #020617;
+  --mesh-4: #064E3B;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-white);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-heading);
+}
