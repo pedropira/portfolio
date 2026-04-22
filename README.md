@@ -13,7 +13,7 @@ Bienvenido al repositorio de mi portafolio personal interactivo, desarrollado ba
 - **Estilos:** Tailwind CSS
 - **Animaciones:** Framer Motion
 - **Arquitectura:** Spec-Driven Development (SDD) & Hexagonal / Clean Architecture concepts
-- **Despliegue:** Vercel (Recomendado)
+- **Despliegue:** Vercel https://pedropiradev.vercel.app
 
 ## 🏗️ Estructura del Proyecto
 
